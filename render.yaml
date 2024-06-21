@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: 8streamapi
+    name: rgshowsapi
     env: docker
-    repo: https://github.com/himanshu8443/8StreamApi.git
+    repo: https://github.com/RISHAB-CREATOR/RgShowsApi.git
     branch: main
