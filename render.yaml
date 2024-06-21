@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 8streamapi
+    env: docker
+    repo: https://github.com/himanshu8443/8StreamApi.git
+    branch: main
