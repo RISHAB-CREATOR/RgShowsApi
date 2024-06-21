@@ -1,5 +1,4 @@
 
-![8-stream-high-resolution-logo-transparent](https://github.com/himanshu8443/HayasakaStream/assets/99420590/813cca3a-a3c3-4f40-8a79-df5b866edf68)
  - Api provides Movies/Series streaming links by IMDB IDs.
  - Most commonly provided languages - Hindi, English, Tamil, Telugu, Bengali.
 
@@ -46,7 +45,7 @@ Provides information file and key which is used to get steram link.
 }
 ```
 
-**Try** - [try](https://8-stream-api.vercel.app/api/v1/mediaInfo?id=tt1877830)
+**Try** - [try](https://rgshowsapi1.vercel.app/api/v1/mediaInfo?id=tt1877830)
 
 |Query|Description|Required|Method
 |--|--|--|--
@@ -77,7 +76,7 @@ Provides available season, episodes and language info
 }
 ```
 
-**Try** -  [try](https://8-stream-api.vercel.app/api/v1/getSeasonList?id=tt11737520)
+**Try** -  [try](https://rgshowsapi1.vercel.app/api/v1/getSeasonList?id=tt11737520)
 
 |Query|Description  | required
 |--|--| --|
@@ -120,11 +119,11 @@ fetch('https://example.com/api/v1/getStream',
 
 # Installation
   ```
-   git clone https://github.com/himanshu8443/8StreamApi.git
+   git clone https://github.com/RISHAB-CREATOR/RgShowsApi.git
   ```
 
  ```
-  cd 8StreamApi
+  cd RgShowsApi
 ```
  ### node
   ```
@@ -135,13 +134,8 @@ fetch('https://example.com/api/v1/getStream',
    
 ###  docker
 ```
-docker build -t 8streamapi .
+docker build -t rgshowsapi .
 ```
 ```
-docker run -p 3000:3000 -it -d 8streamapi
+docker run -p 3000:3000 -it -d rgshowsapi
 ```
-
-# Deploy
-## Vercel - [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhimanshu8443%2F8StreamApi)
-Note- vercel free tier serverless response time limit is 10 sec and will stop if took longer
-## Render - [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/himanshu8443/8StreamApi)
